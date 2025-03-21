@@ -5,7 +5,7 @@
     --link-color: #AAA;
     --background-color: #141414;
     --text-color: #fff;
-    --border-color: #ff0000;
+    --button-color: rgba(0, 0, 0, 0.5);
     --border-radius: 5px;
     --transition: all 0.3s linear;
     --spacing: 0.25rem;
@@ -79,4 +79,23 @@ header nav a:hover {
 
 .filme-principal .descricao {
     margin-bottom: 40px;
+}
+
+.filme-principal .botao {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    padding: 15px 30px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.filme-principal .botao i {
+    margin-right: 10px;
+}
+
+.filme-principal .botao:hover {
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+    font-weight: var(--bold);
 }
