@@ -1,4 +1,4 @@
-![Netflix Clone](/Recriando_interface_netflix/img/netflix-clone.png)
+![Netflix Clone](img/netflix-clone.png)
 
 <hr>
 
@@ -21,24 +21,24 @@ Netflix Clone é uma aplicação web que oferece uma variedade de recursos e con
 Siga estas etapas para configurar o Netflix Clone em sua máquina:
 
 1. **Clone o Repositório:**
-
+   
    ```bash
    git clone https://github.com/devbdallagnol/bootcamp_localiza_labs_react
    ```
 
 2. **Acesse a pasta:**
-
+   
    ```bash
    cd ...\\Recriando_interface_netflix
    ```
-   
-4. **Rode o projeto:**
-    > Windows | Linux
 
+3. **Rode o projeto:**
+   
+   > Windows | Linux
+   
    ```bash
    abra o arquivo index.html
    ```
-
 
 ### Contribuição
 
